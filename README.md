@@ -120,5 +120,5 @@ MacOS: MacOS user must ensure that they've installed XQuartz and the XCode comma
 
 gcc -O helloworld.c -D GL_SILENCE_DEPRECATION -D PLATFORM_KIND=Posix_Platform -I /opt/X11/include -lGL -lGLU -framework OpenGL -framework GLUT -L/opt/X11/lib -lX11 -lXMU -o helloworld<br />
 
-Build script for all 3 platforms are included in the repository<br />
+Build scripts for all 3 platforms are included in the repository<br />
   
